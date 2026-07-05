@@ -12,7 +12,7 @@ chat_id="-1001921678002"
 KERNEL_DIR="$(pwd)"
 
 # Zip Name
-ZIPNAME="sonix"
+ZIPNAME="tes-EAS-A10-OldCam"
 
 # Specify compiler ( eva , azure , proton , arter , aosp & nexus )
 COMPILER=proton
@@ -34,7 +34,7 @@ echo "CONFIG_XIAOMI_NEWCAM=y" >> arch/arm64/configs/lavender_defconfig
 fi
 
 # Kernel Defconfig
-DEFCONFIG=lavender_defconfig
+DEFCONFIG=lavender-perf_defconfig
 
 # Optimizations
 LTO=1
